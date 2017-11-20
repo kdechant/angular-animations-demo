@@ -4,12 +4,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
-import { HeroListSimpleFadeComponent } from "./hero-list-simple-fade.component";
+import { ListSimpleFadeComponent } from "./list-simple-fade.component";
+import { ListBannerFadeComponent } from "./list-banner-fade.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroListSimpleFadeComponent
+    ListSimpleFadeComponent,
+    ListBannerFadeComponent
   ],
   imports: [
     BrowserModule,
